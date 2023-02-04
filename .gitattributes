@@ -1,2 +1,28 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#-------------------------
+# Image files
+#-------------------------
+*.png binary
+*.gif binary
+*.jpg binary
+*.ase binary
+*.psd binary
+
+#-------------------------
+# Document files
+#-------------------------
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.pdf binary
+
+#-------------------------
+# 3D files
+#-------------------------
+*.ipt binary
+*.iam binary
+*.stl binary
+
+#-------------------------
+# Other possible files
+#-------------------------
+*.zip binary
