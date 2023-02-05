@@ -1,0 +1,41 @@
+This document details the intended measurements for all
+game related physical elements in Vircon32. Use this as
+a reference to adjust the scale correctly when printing
+on paper and when 3D printing plastic parts.
+
+
+* Game cartridges
+-----------------------------
+  100 x 60 x 18 mm (external)
+
+* Game boxes (folded)
+-----------------------------
+  180 x 126 x 32 mm (external)
+
+* Game boxes (flat pattern)
+-----------------------------
+  274 x 336 mm
+
+* Inner trays (folded)
+-----------------------------
+  174 x 122 x 25 mm
+
+* Inner trays (flat pattern)
+-----------------------------
+  396 x 328 mm
+
+* Cartridge front labels
+-----------------------------
+  75 x 30 mm
+
+* Cartridge back labels
+-----------------------------
+  50 x 30 mm
+
+* Game manuals (folded)
+-----------------------------
+  116 x 171 mm
+
+* Game manuals (open)
+-----------------------------
+  232 x 171 mm
