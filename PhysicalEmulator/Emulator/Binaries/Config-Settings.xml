@@ -1,0 +1,18 @@
+<settings version="2">
+    <language>spanish</language>
+    <video size="2" fullscreen="no"/>
+    <audio mute="no" volume="76"/>
+    <audio-buffers number="4" samples="512"/>
+    <gamepad-1 profile="keyboard"/>
+    <gamepad-2 profile="none"/>
+    <gamepad-3 profile="none"/>
+    <gamepad-4 profile="none"/>
+    <load-folders>
+        <cartridges path="J:\Codigo\C++\Vircon32\ConsoleSoftware\Games\BasicPlatformer\bin\"/>
+        <memory-cards path="J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\"/>
+    </load-folders>
+    <recent-cartridges>
+        <cartridge path="J:\Codigo\C++\Vircon32\ConsoleSoftware\Games\BasicPlatformer\bin\BasicPlatformer.v32"/>
+    </recent-cartridges>
+    <recent-memory-cards/>
+</settings>

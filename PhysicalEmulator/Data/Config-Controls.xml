@@ -1,0 +1,17 @@
+<controls version="2">
+    <joystick nickname="Vircon32 Gamepad">
+        <guid>03000000790000001100000000000000</guid>
+        <name>USB Gamepad</name>
+        <left axis="0" direction="minus"/>
+        <right axis="0" direction="plus"/>
+        <up axis="1" direction="minus"/>
+        <down axis="1" direction="plus"/>
+        <button-a button="1"/>
+        <button-b button="2"/>
+        <button-x button="0"/>
+        <button-y button="3"/>
+        <button-l button="4"/>
+        <button-r button="5"/>
+        <button-start button="9"/>
+    </joystick>
+</controls>

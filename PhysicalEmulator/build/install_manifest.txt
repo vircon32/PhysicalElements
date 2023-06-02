@@ -1,0 +1,23 @@
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Vircon32Physical.exe
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/ViewControls.exe
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Bios/StandardBios.v32
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Config-Controls.xml
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Config-Settings.xml
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Readme (Spanish).txt
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/Readme.txt
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libalut-0.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libdeflate.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libgcc_s_dw2-1.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libjpeg-8.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/liblzma-5.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libopenal-1.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libpng16-16.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libstdc++-6.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libtiff-5.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libtinyxml2.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libwebp-7.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libwinpthread-1.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/libzstd.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/SDL2.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/SDL2_image.dll
+C:/Program Files (x86)/Vircon32/PhysicalEmulator/zlib1.dll

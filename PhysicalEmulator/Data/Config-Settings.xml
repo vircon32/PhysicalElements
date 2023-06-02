@@ -1,0 +1,12 @@
+<settings version="4">
+    <bios file="StandardBios.v32"/>
+    <audio-buffers number="6" />
+    <gamepad-1 path="\\?\HID#VID_081F&amp;PID_E401#8&amp;2157F3E3&amp;0&amp;0000#{4D1E55B2-F16F-11CF-88CB-001111000030}" />
+    <gamepad-2 path="\\?\HID#VID_081F&amp;PID_E401#8&amp;3411A488&amp;0&amp;0000#{4D1E55B2-F16F-11CF-88CB-001111000030}" />
+    <gamepad-3 path="\\?\HID#VID_081F&amp;PID_E401#8&amp;6644CBE&amp;0&amp;0000#{4D1E55B2-F16F-11CF-88CB-001111000030}" />
+    <gamepad-4 path="\\?\HID#VID_081F&amp;PID_E401#8&amp;2F456620&amp;0&amp;0000#{4D1E55B2-F16F-11CF-88CB-001111000030}" />
+    <load-paths>
+        <cartridge path="J:\CartridgeROM.v32" />
+        <memory-card path="J:\MemoryCardRAM.memc" />
+    </load-paths>
+</settings>

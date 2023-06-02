@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/ControlsViewer/Main.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_joystick.h
+-
+string
+-
+iostream
+-
+stdexcept
+-
+list
+-
+map
+-
+

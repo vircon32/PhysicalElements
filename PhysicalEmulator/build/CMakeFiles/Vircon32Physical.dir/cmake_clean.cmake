@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/Definitions.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/FilePaths.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/LogStream.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/Matrix4D.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/OpenGL2DContext.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/StopWatch.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/StringFunctions.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/DesktopInfrastructure/Texture.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/GUI.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/Globals.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/Main.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/Settings.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconBuses.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconCPU.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconCPUProcessors.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconCartridgeController.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconEmulator.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconGPU.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconGPUWriters.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconGamepadController.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconMemory.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconMemoryCardController.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconNullController.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconRNG.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconSPU.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconSPUThread.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconSPUWriters.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/Emulator/VirconTimer.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/J_/Codigo/C++/Vircon32/ComputerSoftware/VirconDefinitions/VirconDefinitions.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/J_/Codigo/C++/Vircon32/ComputerSoftware/VirconDefinitions/VirconEnumerations.cpp.obj"
+  "CMakeFiles/Vircon32Physical.dir/J_/Codigo/C++/Vircon32/ComputerSoftware/VirconDefinitions/VirconROMFormat.cpp.obj"
+  "Vircon32Physical.exe"
+  "Vircon32Physical.exe.manifest"
+  "Vircon32Physical.pdb"
+  "libVircon32Physical.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Vircon32Physical.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Emulator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="02-Infrastructure/;03-Vircon components/;01-Vircon common/;01-Vircon common/;00-Global/" />
+		<Build>
+			<Target title="Release">
+				<Option output="Binaries/Vircon32" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Binaries/" />
+				<Option object_output="Objects/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="LIBS_OPENAL" value="-lalut -lopenal" />
+				<Variable name="LIBS_OPENGL" value="-lglad -lfreeglut_static -lglu32 -lopengl32" />
+				<Variable name="LIBS_SDL2" value="-lSDL2 -lole32 -limm32 -lversion -loleaut32 -lgdi32 -lwinmm -lsetupapi" />
+				<Variable name="LIBS_SDL2_IMAGE" value="-lSDL2_image -lpng -ltiff -ljpeg -lwebp -llzma -ldeflate -lzstd -lz" />
+				<Variable name="LINK_DYNAMIC" value="-Wl,-Bdynamic" />
+				<Variable name="LINK_STATIC" value="-Wl,-Bstatic" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="$(LINK_STATIC)" />
+			<Add option="-limgui" />
+			<Add option="$(LIBS_SDL2_IMAGE)" />
+			<Add option="$(LIBS_SDL2)" />
+			<Add option="$(LIBS_OPENGL)" />
+			<Add option="-losdialog" />
+			<Add option="-ltinyxml2" />
+			<Add option="$(LINK_DYNAMIC)" />
+			<Add option="-lalut" />
+			<Add option="-lopenal" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="rcedit $(TARGET_OUTPUT_FILE) --set-icon $(PROJECT_DIRECTORY)\Vircon32Multisize.ico" />
+			<Add after='rcedit $(TARGET_OUTPUT_FILE) --set-version-string &quot;ProductName&quot; &quot;Vircon32&quot;' />
+			<Add after='rcedit $(TARGET_OUTPUT_FILE) --set-version-string &quot;FileDescription&quot; &quot;Vircon32 console emulator&quot;' />
+			<Add after='rcedit $(TARGET_OUTPUT_FILE) --set-version-string &quot;CompanyName&quot; &quot;Javier Carracedo&quot;' />
+		</ExtraCommands>
+		<Unit filename="../../VirconDefinitions/VirconDataStructures.hpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconDefinitions.cpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconDefinitions.hpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconEnumerations.cpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconEnumerations.hpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconROMFormat.cpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../../VirconDefinitions/VirconROMFormat.hpp">
+			<Option virtualFolder="01-Vircon common/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/Definitions.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/Definitions.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/FilePaths.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/FilePaths.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/LogStream.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/LogStream.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/Matrix4D.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/Matrix4D.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/OpenGL2DContext.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/OpenGL2DContext.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/StopWatch.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/StopWatch.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/StringFunctions.cpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="../DesktopInfrastructure/StringFunctions.hpp">
+			<Option virtualFolder="02-Infrastructure/" />
+		</Unit>
+		<Unit filename="GUI.cpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="GUI.hpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="Globals.cpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="Globals.hpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="Main.cpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="Settings.cpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="Settings.hpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="VirconBuses.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconBuses.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconCPU.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconCPU.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconCPUProcessors.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconCartridgeController.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconCartridgeController.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconEmulator.cpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="VirconEmulator.hpp">
+			<Option virtualFolder="00-Global/" />
+		</Unit>
+		<Unit filename="VirconGPU.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconGPU.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconGPUWriters.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconGamepadController.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconGamepadController.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconMemory.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconMemory.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconMemoryCardController.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconMemoryCardController.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconNullController.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconNullController.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconRNG.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconRNG.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconSPU.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconSPU.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconSPUThread.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconSPUWriters.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconTimer.cpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Unit filename="VirconTimer.hpp">
+			<Option virtualFolder="03-Vircon components/" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

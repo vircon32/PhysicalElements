@@ -1,0 +1,15 @@
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/install.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/list_install_components.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/install/local.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/rebuild_cache.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/edit_cache.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/ViewControls.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/install/strip.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/CMakeFiles/Vircon32Physical.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/install.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/list_install_components.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/install/local.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/rebuild_cache.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/edit_cache.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/install/strip.dir
+J:/Codigo/C++/Vircon32/ComputerSoftware/PhysicalEmulator/build/ExternalLibraries/CMakeFiles/glad.dir

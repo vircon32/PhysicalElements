@@ -1,0 +1,81 @@
+Log Title: "Process log for J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\DebugLog", started on: [Thursday, May 12, 2022][07:56:52]
+--------------------------------------------------------------------------------
+Performing ABI assertions
+Performing I/O port assertions
+Initializing global variables
+Initializing SDL
+Active joysticks: 0
+Creating OpenGL window
+{
+    Creating window
+    Creating OpenGL context
+    OpenGL context created successfully
+    Initializing GLAD
+    Started OpenGL version 4.5.0 NVIDIA 385.69
+    Activating VSync
+    Setting 2D projection
+}
+Graphic device vendor: NVIDIA Corporation
+Graphic device model: Quadro K2000/PCIe/SSE2
+Starting ImGui
+Creating Framebuffer
+{
+    Creating Framebuffer object
+    {
+        glGenFramebuffers: Sin errores
+        glBindFramebuffer: Sin errores
+    }
+    Creating a new texture
+    {
+        glGenTextures: Sin errores
+        glBindTexture: Sin errores
+        glTexImage2D: Sin errores
+        glTexParameteri: Sin errores
+    }
+    Creating a render buffer
+    {
+        glGenRenderbuffers: Sin errores
+    }
+    Binding the texture to the render buffer
+    {
+        glBindRenderbuffer: Sin errores
+        glRenderbufferStorage: Sin errores
+        glFramebufferRenderbuffer: Sin errores
+    }
+    Binding the render buffer to the Framebuffer
+    {
+        glFramebufferTexture: Sin errores
+        Checking status of the created Framebuffer
+        glCheckFramebufferStatus: Sin errores
+        Framebuffer status OK
+        glDrawBuffers: Sin errores
+    }
+}
+Enabling alpha blending
+Initializing audio
+Texture -> Load "J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\Images\NoSignal.png"
+Loading controls from "J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\Config-Controls.xml"
+Loading settings from "J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\Config-Settings.xml"
+Loading bios
+{
+    File path: "J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\Bios\StandardBios.v32"
+    BIOS title: "Vircon32 standard BIOS"
+    BIOS texture is 480x328
+    BIOS sound is 105728 samples
+}
+Creating SPU playback thread
+---------------------------------------------------------------------
+    Starting main loop
+---------------------------------------------------------------------
+Focus gained
+Focus gained
+Stopping SPU playback thread
+Saving settings to "J:\Codigo\C++\Vircon32\ComputerSoftware\DesktopEmulator\Emulator\Binaries\Config-Settings.xml"
+---------------------------------------------------------------------
+    Performing terminations
+---------------------------------------------------------------------
+Terminating audio
+Shutting down ImGui
+Exiting
+--------------------------------------------------------------------------------
+Log finished on: [Thursday, May 12, 2022][07:56:56]

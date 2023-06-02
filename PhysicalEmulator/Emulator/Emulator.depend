@@ -1,0 +1,357 @@
+# depslib dependency file v1.0
+1648789838 source:j:\codigo\c++\vircon32\computersoftware\vircondefinitions\vircondefinitions.cpp
+	"VirconDefinitions.hpp"
+	"VirconEnumerations.hpp"
+	<sstream>
+	<iomanip>
+
+1673204570 j:\codigo\c++\vircon32\computersoftware\vircondefinitions\vircondefinitions.hpp
+	<string>
+
+1668419852 j:\codigo\c++\vircon32\computersoftware\vircondefinitions\virconenumerations.hpp
+	"VirconDefinitions.hpp"
+	<string>
+
+1648789874 source:j:\codigo\c++\vircon32\computersoftware\vircondefinitions\virconenumerations.cpp
+	"VirconEnumerations.hpp"
+	<iostream>
+	<map>
+	<stdexcept>
+
+1648789901 source:j:\codigo\c++\vircon32\computersoftware\vircondefinitions\virconromformat.cpp
+	"VirconROMFormat.hpp"
+
+1648367888 j:\codigo\c++\vircon32\computersoftware\vircondefinitions\virconromformat.hpp
+	<cstdint>
+	<iostream>
+	<fstream>
+
+1654189911 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\definitions.cpp
+	"Definitions.hpp"
+
+1654189947 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\definitions.hpp
+
+1651235807 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\filepaths.cpp
+	"FilePaths.hpp"
+	<iostream>
+	<fstream>
+	<algorithm>
+	<sys/stat.h>
+
+1651143406 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\filepaths.hpp
+	<string>
+
+1654182270 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\logstream.cpp
+	"LogStream.hpp"
+	<iostream>
+	<iomanip>
+	<time.h>
+	<SDL2/SDL_rwops.h>
+
+1654182270 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\logstream.hpp
+	"Definitions.hpp"
+	<string>
+	<fstream>
+	<stdexcept>
+
+1559651454 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\vector2d.hpp
+
+1651171685 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\opengl2d.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"OpenGL2D.hpp"
+	"LogStream.hpp"
+
+1649081976 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\opengl2d.hpp
+	"Definitions.hpp"
+	<SDL2/SDL.h>
+	<windef.h>
+	<glad/glad.h>
+	<GL/glu.h>
+
+1648790030 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\stopwatch.cpp
+	"StopWatch.hpp"
+
+1653994151 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\stopwatch.hpp
+	<SDL2/SDL.h>
+
+1648790034 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\stringfunctions.cpp
+	"StringFunctions.hpp"
+	<iostream>
+
+1648726950 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\stringfunctions.hpp
+	<string>
+	<vector>
+
+1654190927 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\texture.cpp
+	"Definitions.hpp"
+	"LogStream.hpp"
+	"Texture.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1654190776 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\texture.hpp
+	"Definitions.hpp"
+	"OpenGL2DContext.hpp"
+	<glad/glad.h>
+
+1648793673 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\video.hpp
+	"Definitions.hpp"
+	"Vector2D.hpp"
+	<vector>
+
+1648793667 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\vector2d.cpp
+	"Vector2D.hpp"
+	"Definitions.hpp"
+	<math.h>
+	<stdexcept>
+
+1648793671 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\video.cpp
+	"Video.hpp"
+	"Definitions.hpp"
+	<glad/glad.h>
+
+1648729409 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\globals.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconDataStructures.hpp"
+	"../DesktopInfrastructure/LogStream.hpp"
+	"Globals.hpp"
+	"VirconEmulator.hpp"
+
+1648789811 j:\codigo\c++\vircon32\computersoftware\vircondefinitions\vircondatastructures.hpp
+	<cstdint>
+
+1654194650 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\globals.hpp
+	"../DesktopInfrastructure/Definitions.hpp"
+	"../DesktopInfrastructure/Texture.hpp"
+	"../DesktopInfrastructure/OpenGL2DContext.hpp"
+	<map>
+	<list>
+
+1648728055 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconemulator.hpp
+	"VirconCPU.hpp"
+	"VirconGPU.hpp"
+	"VirconSPU.hpp"
+	"VirconTimer.hpp"
+	"VirconRNG.hpp"
+	"VirconMemory.hpp"
+	"VirconGamepadController.hpp"
+	"VirconCartridgeController.hpp"
+	"VirconMemoryCardController.hpp"
+	"VirconNullController.hpp"
+
+1648724658 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconcpu.hpp
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"VirconBuses.hpp"
+
+1648724589 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconbuses.hpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconDataStructures.hpp"
+	<vector>
+
+1654194575 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircongpu.hpp
+	"VirconBuses.hpp"
+	<glad/glad.h>
+
+1653997794 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconspu.hpp
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"../DesktopInfrastructure/Definitions.hpp"
+	"VirconBuses.hpp"
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<SDL2/SDL.h>
+
+1604874198 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircontimer.hpp
+	"VirconBuses.hpp"
+
+1604183135 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconrng.hpp
+	"VirconBuses.hpp"
+
+1648724847 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconmemory.hpp
+	"VirconBuses.hpp"
+	<string>
+
+1648728327 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircongamepadcontroller.hpp
+	"../DesktopInfrastructure/Definitions.hpp"
+	"VirconBuses.hpp"
+
+1648724612 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconcartridgecontroller.hpp
+	"VirconBuses.hpp"
+	"VirconMemory.hpp"
+	<string>
+
+1648724857 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconmemorycardcontroller.hpp
+	"VirconBuses.hpp"
+	"VirconMemory.hpp"
+	<string>
+
+1604098800 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconnullcontroller.hpp
+	"VirconBuses.hpp"
+
+1651499704 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\gui.cpp
+	"../DesktopInfrastructure/Video.hpp"
+	"../DesktopInfrastructure/OpenGL2D.hpp"
+	"../DesktopInfrastructure/FilePaths.hpp"
+	"GUI.hpp"
+	"VirconEmulator.hpp"
+	"Globals.hpp"
+	"Settings.hpp"
+	"Languages.hpp"
+	<osdialog/osdialog.h>
+	<png.h>
+	<time.h>
+	<stdexcept>
+
+1654009938 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\gui.hpp
+	<imgui/imgui.h>
+	<imgui/imgui_impl_sdl.h>
+	<imgui/imgui_impl_opengl3.h>
+	<string>
+
+1653997785 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\settings.hpp
+	"VirconGamepadController.hpp"
+	<string>
+	<map>
+	<SDL2/SDL.h>
+
+1648727957 j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\languages.hpp
+	<string>
+	<map>
+
+1649492392 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\languages.cpp
+	"../DesktopInfrastructure/LogStream.hpp"
+	"Languages.hpp"
+
+1652132128 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\main.cpp
+	"../DesktopInfrastructure/LogStream.hpp"
+	"../DesktopInfrastructure/Definitions.hpp"
+	"../DesktopInfrastructure/StopWatch.hpp"
+	"../DesktopInfrastructure/FilePaths.hpp"
+	"../DesktopInfrastructure/OpenGL2D.hpp"
+	"VirconEmulator.hpp"
+	"GUI.hpp"
+	"Settings.hpp"
+	"Globals.hpp"
+	"Languages.hpp"
+	<iostream>
+	<cstddef>
+	<AL/al.h>
+	<AL/alut.h>
+	<gtk/gtk.h>
+
+1651486081 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\settings.cpp
+	"../DesktopInfrastructure/LogStream.hpp"
+	"../DesktopInfrastructure/StringFunctions.hpp"
+	"Settings.hpp"
+	"VirconEmulator.hpp"
+	"GUI.hpp"
+	"Languages.hpp"
+	"Globals.hpp"
+	<set>
+	<tinyxml2.h>
+
+1648724541 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconbuses.cpp
+	"VirconBuses.hpp"
+	"VirconCPU.hpp"
+
+1648724602 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconcartridgecontroller.cpp
+	"VirconCartridgeController.hpp"
+	<iostream>
+	<fstream>
+	<stdexcept>
+
+1649083149 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconcpu.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"../DesktopInfrastructure/Definitions.hpp"
+	"VirconCPU.hpp"
+	<cstring>
+
+1649083544 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconcpuprocessors.cpp
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"../DesktopInfrastructure/Definitions.hpp"
+	"VirconCPU.hpp"
+	<cmath>
+	<iostream>
+
+1651486949 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconemulator.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconROMFormat.hpp"
+	"../DesktopInfrastructure/FilePaths.hpp"
+	"../DesktopInfrastructure/LogStream.hpp"
+	"../DesktopInfrastructure/OpenGL2D.hpp"
+	"VirconEmulator.hpp"
+	"Globals.hpp"
+	"GUI.hpp"
+	"Settings.hpp"
+
+1651139482 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircongamepadcontroller.cpp
+	"../DesktopInfrastructure/LogStream.hpp"
+	"VirconGamepadController.hpp"
+	<string.h>
+
+1648728354 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircongpu.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"../DesktopInfrastructure/OpenGL2D.hpp"
+	"../DesktopInfrastructure/LogStream.hpp"
+	"VirconGPU.hpp"
+	"Globals.hpp"
+
+1648728410 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircongpuwriters.cpp
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"VirconGPU.hpp"
+	<cmath>
+
+1648724834 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconmemory.cpp
+	"../DesktopInfrastructure/LogStream.hpp"
+	"VirconMemory.hpp"
+	<cstring>
+
+1648724885 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconmemorycardcontroller.cpp
+	"../../VirconDefinitions/VirconDefinitions.hpp"
+	"../../VirconDefinitions/VirconROMFormat.hpp"
+	"../DesktopInfrastructure/FilePaths.hpp"
+	"../DesktopInfrastructure/LogStream.hpp"
+	"VirconMemoryCardController.hpp"
+	<iostream>
+	<fstream>
+
+1648724902 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconnullcontroller.cpp
+	"VirconNullController.hpp"
+
+1648728576 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconrng.cpp
+	"VirconRNG.hpp"
+	<stdlib.h>
+
+1651480456 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconspu.cpp
+	"../DesktopInfrastructure/Definitions.hpp"
+	"../DesktopInfrastructure/LogStream.hpp"
+	"VirconSPU.hpp"
+	<stdexcept>
+	<iostream>
+
+1651319955 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconsputhread.cpp
+	"VirconSPU.hpp"
+	<stdexcept>
+	<iostream>
+
+1651478794 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\virconspuwriters.cpp
+	"VirconSPU.hpp"
+
+1648725248 source:j:\codigo\c++\vircon32\computersoftware\desktopemulator\emulator\vircontimer.cpp
+	"VirconTimer.hpp"
+	<time.h>
+
+1673204570 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\opengl2dcontext.hpp
+	"../../VirconDefinitions/VirconDataStructures.hpp"
+	"../../VirconDefinitions/VirconEnumerations.hpp"
+	"Definitions.hpp"
+	"Matrix4D.hpp"
+	<SDL2/SDL.h>
+	<windef.h>
+	<glad/glad.h>
+
+1653671860 j:\codigo\c++\vircon32\computersoftware\desktopemulator\desktopinfrastructure\matrix4d.hpp
+
